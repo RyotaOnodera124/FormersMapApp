@@ -31,6 +31,13 @@ class LocationsDataService {
             coordinates: CLLocationCoordinate2D(latitude: 34.2486, longitude: 132.5654),
             description: "さくちゃんFarmではエリンギが4kg廃棄予定です。100g３00円で販売しております。販売希望の方はお知らせください！",
             imageNames: ["sakuragi-1"],
+            link: ""),
+        Location(
+            name: "AI社長の畑",
+            cityName: "Sendai",
+            coordinates: CLLocationCoordinate2D(latitude: 38.2482, longitude: 140.8501),
+            description: "AI社長の畑では高級マンゴーが10kg廃棄予定です。100g1000円で販売しております。販売希望の方はお知らせください！",
+            imageNames: [""],
             link: "")
     ]
 }
