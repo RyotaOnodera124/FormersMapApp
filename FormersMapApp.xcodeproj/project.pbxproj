@@ -18,6 +18,7 @@
 		FC21006D2AB164FF006EC6D1 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21006C2AB164FF006EC6D1 /* LocationsListView.swift */; };
 		FC8D2B1E2AB1B7A800D96FAB /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D2B1D2AB1B7A800D96FAB /* LocationPreviewView.swift */; };
 		FC8D2B202AB1CF3900D96FAB /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D2B1F2AB1CF3900D96FAB /* LocationMapAnnotationView.swift */; };
+		FC8D2B222AB1E72900D96FAB /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D2B212AB1E72900D96FAB /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		FC21006C2AB164FF006EC6D1 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		FC8D2B1D2AB1B7A800D96FAB /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		FC8D2B1F2AB1CF3900D96FAB /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		FC8D2B212AB1E72900D96FAB /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				FC21006C2AB164FF006EC6D1 /* LocationsListView.swift */,
 				FC8D2B1D2AB1B7A800D96FAB /* LocationPreviewView.swift */,
 				FC8D2B1F2AB1CF3900D96FAB /* LocationMapAnnotationView.swift */,
+				FC8D2B212AB1E72900D96FAB /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				FC2100652AB146F3006EC6D1 /* LocationsView.swift in Sources */,
 				FC21006D2AB164FF006EC6D1 /* LocationsListView.swift in Sources */,
 				FC2100602AB14462006EC6D1 /* Location.swift in Sources */,
+				FC8D2B222AB1E72900D96FAB /* LocationDetailView.swift in Sources */,
 				FC21004F2AB14332006EC6D1 /* FormersMapAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

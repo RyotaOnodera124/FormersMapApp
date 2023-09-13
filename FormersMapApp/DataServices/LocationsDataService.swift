@@ -12,11 +12,25 @@ class LocationsDataService {
     
     static let locations: [Location] = [
         Location(
-            name: "OnoderaFarm",
-            cityName: "Hachimantai",
-            coordinates: CLLocationCoordinate2D(latitude: 39.5423, longitude: 141.014),
-            description: "小野寺農園ではほうれん草が5kg廃棄予定です。100g50円で販売しております。購入希望の方はお知らせください！",
+            name: "小野寺Farm",
+            cityName: "Sendai",
+            coordinates: CLLocationCoordinate2D(latitude: 38.2482, longitude: 140.8693),
+            description: "小野寺Farmではほうれん草が5kg廃棄予定です。100g50円で販売しております。購入希望の方はお知らせください！",
             imageNames: ["onoderafarm-1", "onoderafarm-2"],
+            link: ""),
+        Location(
+            name: "松永Farm",
+            cityName: "Tosu",
+            coordinates: CLLocationCoordinate2D(latitude: 33.3777, longitude: 130.5062),
+            description: "松永Farmではパプリカが3kg廃棄予定です。100g100円で販売しております。販売希望の方はお知らせください！",
+            imageNames: ["matsunaga-1"],
+            link: ""),
+        Location(
+            name: "さくちゃんFarm",
+            cityName: "Kure",
+            coordinates: CLLocationCoordinate2D(latitude: 34.2486, longitude: 132.5654),
+            description: "さくちゃんFarmではエリンギが4kg廃棄予定です。100g３00円で販売しております。販売希望の方はお知らせください！",
+            imageNames: ["sakuragi-1"],
             link: "")
     ]
 }
