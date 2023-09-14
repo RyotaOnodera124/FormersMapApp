@@ -38,6 +38,13 @@ class LocationsDataService {
             coordinates: CLLocationCoordinate2D(latitude: 38.2482, longitude: 140.8501),
             description: "AI社長の畑では高級マンゴーが10kg廃棄予定です。100g1000円で販売しております。販売希望の方はお知らせください！",
             imageNames: [""],
+            link: ""),
+        Location(
+            name: "翔Farm",
+            cityName: "Yokohama",
+            coordinates: CLLocationCoordinate2D(latitude: 35.4437, longitude: 139.638),
+            description: "翔Farmではナスが6kg廃棄予定です。100g100円で販売しております。販売希望の方はお知らせ下さい!",
+            imageNames: ["kurosawa-1"],
             link: "")
     ]
 }
