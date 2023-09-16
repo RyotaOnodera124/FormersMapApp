@@ -45,7 +45,8 @@ class LocationsDataService {
             coordinates: CLLocationCoordinate2D(latitude: 35.4437, longitude: 139.638),
             description: "翔Farmではナスが6kg廃棄予定です。100g100円で販売しております。販売希望の方はお知らせ下さい!",
             imageNames: ["kurosawa-1"],
-            link: "")
+            link: ""),
+        
     ]
 }
 
