@@ -13,6 +13,8 @@ struct LocationDetailView: View {
     @EnvironmentObject private var vm: LocationsViewModel
     let location: Location
     
+    @State private var isFavorite = false
+    
     var body: some View {
         ScrollView {
             VStack {
@@ -31,6 +33,22 @@ struct LocationDetailView: View {
         .ignoresSafeArea()
         .background(.ultraThinMaterial)
         .overlay(backButton, alignment: .topLeading)
+    }
+    
+    private var favoriteButton: some View {
+        Button(action: {
+            isFavorite.toggle()
+            // お気に入りの状態を保存または更新するロジックをここに追加することができます
+        }) {
+            Image(systemName: isFavorite ? "heart.fill" : "heart")
+                .font(.headline)
+                .padding(16)
+                .foregroundColor(isFavorite ? .red : .primary)
+                .background(.thickMaterial)
+                .cornerRadius(10)
+                .shadow(radius: 4)
+                .padding()
+        }
     }
 }
 
@@ -67,6 +85,7 @@ extension LocationDetailView {
                 .font(.title3)
                 .foregroundColor(.secondary)
         }
+        
     }
     
     private var descriptionSection: some View {
